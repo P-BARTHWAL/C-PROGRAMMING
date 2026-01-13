@@ -1,0 +1,18 @@
+/* 34. EVEN OR ODD */
+#include <stdio.h>
+
+int main() {
+    int num, a;
+    printf(" Enter a number to check : ");
+    scanf("%d", &num);
+    a= num%2;
+    switch (a)
+    { case 0 : printf( "%d is even number ",num );
+               break;
+      case 1 : printf( "%d is odd number ",num );
+               break;           
+      default:
+         printf ("INVALID VALUE ");
+    }
+ return 0;
+}
